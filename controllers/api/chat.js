@@ -8,7 +8,7 @@ async function reply(req, res, next) {
   try {
     const response = new MessagingResponse();
     const message = response.message();
-    message.body('Hello World! ' + req.body.toString());
+    message.body('Hello World! ' + req.body);
     res.writeHead(200, { 'Content-Type': 'text/xml' });
     res.send(response.toString())
   } catch (error) {
