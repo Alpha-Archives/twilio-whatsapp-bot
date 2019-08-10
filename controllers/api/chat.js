@@ -6,18 +6,18 @@ async function reply(req, res, next) {
   const response = new MessagingResponse();
   const msg = response.message();
   try {
-    if (req.body.Body == 'hello') {
-      msg.body('Hi!');
+    if (req.body.Body == 'hello' || req.body.Body == 'hi' || req.body.Body == 'hey' || req.body.Body == 'hello') {
+      msg.body('Hi! 👋');
     } else if (req.body.Body == 'bye') {
-      msg.body('Goodbye');
+      msg.body('Goodbye 🙋‍♀️');
     } else {
-      msg.body('No Body param match,  in the request to your server.');
+      msg.body('Sorry, cant undertand that,Am still learning 😊');
     }
 
     res.set('Content-Type', 'text/xml');
     res.send(msg.toString())
   } catch (error) {
-    msg.body('Error!');
+    msg.body('An Error Occured 💥');
     res.send(response.toString())
   }
 }
