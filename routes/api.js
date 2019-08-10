@@ -2,6 +2,7 @@ const express = require("express");
 
 const authController = require("../controllers/api/auth");
 const userController = require("../controllers/api/user");
+const chatController = require("../controllers/api/chat");
 
 const router = express.Router();
 
@@ -21,5 +22,6 @@ router.get('/', function (req, res) {
 router.post('/register', authController.register);
 router.post('/login', authController.login);
 router.get('/user', userController.getAuthUser);
+router.post('/chat/reply', chatController.reply);
 
 module.exports = router;
