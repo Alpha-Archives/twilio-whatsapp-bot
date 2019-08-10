@@ -1,7 +1,6 @@
 {
-  "name": "Idea",
-  "description": "",
-  "repository": "https://github.com/alphaolomi/idea-in-node",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "name": "Idea ChatBot",
+  "description": "A simplewhatsp chat obt",
+  "repository": "https://github.com/alphaolomi/twilio-bot",
   "image": "heroku/nodejs"
 }
