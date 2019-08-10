@@ -8,10 +8,28 @@ async function reply(req, res, next) {
   try {
     const response = new MessagingResponse();
     const message = response.message();
-    message.body('Hello World!');
-    // response.redirect('https://demo.twilio.com/welcome/sms/');
+    message.body('Hello World! ' + req.body.toString());
+    res.writeHead(200, { 'Content-Type': 'text/xml' });
+    res.send(response.toString())
+  } catch (error) {
 
-    res.set('Content-Type', 'text/xml');
+    next(error);
+  }
+}
+
+
+
+async function reply(req, res, next) {
+
+
+  try {
+    const response = new MessagingResponse();
+    const message = response.message();
+
+    message.body('Hello World! ' + req.body.toString());
+    // message.media('https://farm8.staticflickr.com/7090/6941316406_80b4d6d50e_z_d.jpg');
+
+    res.writeHead(200, { 'Content-Type': 'text/xml' });
     res.send(response.toString())
   } catch (error) {
 
