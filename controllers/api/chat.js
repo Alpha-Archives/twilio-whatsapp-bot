@@ -3,17 +3,24 @@ const MessagingResponse = require('twilio').twiml.MessagingResponse;
 
 
 async function reply(req, res, next) {
-
-
+  const response = new MessagingResponse();
+  const msg = response.message();
+  res.writeHead(200, { 'Content-Type': 'text/xml' });
   try {
-    const response = new MessagingResponse();
-    const message = response.message();
-    message.body('Hello World! ' + req.body);
-    res.writeHead(200, { 'Content-Type': 'text/xml' });
+
+    if (req.body.Body == 'hello') {
+      msg.body('Hi!');
+    } else if (req.body.Body == 'bye') {
+      msg.body('Goodbye');
+    } else {
+      msg.body('No Body param match,  in the request to your server.');
+    }
     res.send(response.toString())
   } catch (error) {
 
-    next(error);
+    msg.body('Error!');
+    res.send(response.toString())
+    // next(error);
   }
 }
 
