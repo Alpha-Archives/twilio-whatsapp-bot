@@ -15,7 +15,7 @@ async function reply(req, res, next) {
     } else {
       msg.body('No Body param match,  in the request to your server.');
     }
-    res.send(response.toString())
+    res.send(msg.toString())
   } catch (error) {
 
     msg.body('Error!');
