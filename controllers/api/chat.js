@@ -15,7 +15,8 @@ async function reply(req, res, next) {
     } else {
       msg.body('No Body param match,  in the request to your server.');
     }
-    res.send(msg.toString())
+    // res.send(msg.toString())
+    console.log(msg.toString())
   } catch (error) {
 
     msg.body('Error!');
@@ -26,9 +27,7 @@ async function reply(req, res, next) {
 
 
 
-async function reply(req, res, next) {
-
-
+async function replyMedia(req, res, next) {
   try {
     const response = new MessagingResponse();
     const message = response.message();
