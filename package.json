@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alphaolomi/idea-in-node"
+    "url": "https://github.com/alphaolomi/twilio-bot"
   },
   "license": "MIT"
 }
