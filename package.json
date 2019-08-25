@@ -13,24 +13,24 @@
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "cookie-parser": "~1.4.4",
-    "debug": "^2.6.9",
-    "ejs": "^2.5.6",
-    "express": "~4.16.1",
-    "express-session": "^1.16.2",
-    "http-errors": "~1.6.3",
-    "method-override": "^3.0.0",
-    "mongoose": "^5.6.9",
-    "mongoose-unique-validator": "^2.0.3",
-    "morgan": "~1.9.1",
-    "node-env-file": "^0.1.8",
-    "twilio": "^3.33.3",
-    "validator": "^11.1.0"
+    "cookie-parser": "1.4.4",
+    "debug": "2.6.9",
+    "ejs": "2.6.2",
+    "express": "4.16.4",
+    "express-session": "1.16.2",
+    "http-errors": "1.6.3",
+    "method-override": "3.0.0",
+    "mongoose": "5.6.9",
+    "mongoose-unique-validator": "2.0.3",
+    "morgan": "1.9.1",
+    "node-env-file": "0.1.8",
+    "twilio": "3.33.3",
+    "validator": "11.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1",
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "nodemon": "1.19.1",
+    "request": "2.88.0",
+    "tape": "4.11.0"
   },
   "repository": {
     "type": "git",
