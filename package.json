@@ -28,7 +28,7 @@
     "validator": "11.1.0"
   },
   "devDependencies": {
-    "nodemon": "1.19.2",
+    "nodemon": "1.19.3",
     "request": "2.88.0",
     "tape": "4.11.0"
   },
