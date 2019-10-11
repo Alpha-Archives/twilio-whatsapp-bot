@@ -17,7 +17,7 @@
     "debug": "4.1.1",
     "ejs": "2.7.1",
     "express": "4.16.4",
-    "express-session": "1.16.2",
+    "express-session": "1.17.0",
     "http-errors": "1.7.3",
     "method-override": "3.0.0",
     "mongoose": "5.7.3",
