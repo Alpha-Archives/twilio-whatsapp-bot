@@ -20,11 +20,11 @@
     "express-session": "1.17.1",
     "http-errors": "1.8.0",
     "method-override": "3.0.0",
-    "mongoose": "5.9.21",
+    "mongoose": "5.9.27",
     "mongoose-unique-validator": "2.0.3",
     "morgan": "1.10.0",
     "node-env-file": "0.1.8",
-    "twilio": "3.47.0",
+    "twilio": "3.48.1",
     "validator": "13.1.1"
   },
   "devDependencies": {
