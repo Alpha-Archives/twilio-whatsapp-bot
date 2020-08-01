@@ -1,15 +1,16 @@
 {
   "name": "twilio-bot",
   "version": "0.0.0",
-  "private": true,
+  "description": "WhatsApp BOT via Twilio WhatsApp API",
+  "main": "app.js",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Alpha Olomi <alphaolomi@gmail.com>",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
     "debug": "set DEBUG=* & nodemon ./bin/www",
     "test": "node test.js"
-  },
-  "engines": {
-    "node": "10.x"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -32,9 +33,13 @@
     "request": "2.88.2",
     "tape": "5.0.1"
   },
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/alphaolomi/idea-in-node"
+    "url": "git+https://github.com/alphaolomi/twilio-whatsapp-bot.git"
   },
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/alphaolomi/twilio-whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/alphaolomi/twilio-whatsapp-bot#readme"
 }
