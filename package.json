@@ -15,23 +15,23 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "cookie-parser": "1.4.5",
-    "debug": "4.3.1",
+    "debug": "4.3.2",
     "ejs": "3.1.6",
     "express": "4.17.1",
-    "express-session": "1.17.1",
-    "http-errors": "1.8.0",
+    "express-session": "1.17.2",
+    "http-errors": "1.8.1",
     "method-override": "3.0.0",
-    "mongoose": "5.11.15",
-    "mongoose-unique-validator": "2.0.3",
+    "mongoose": "6.0.12",
+    "mongoose-unique-validator": "3.0.0",
     "morgan": "1.10.0",
     "node-env-file": "0.1.8",
-    "twilio": "3.55.1",
-    "validator": "13.5.2"
+    "twilio": "3.71.1",
+    "validator": "13.7.0"
   },
   "devDependencies": {
-    "nodemon": "2.0.7",
+    "nodemon": "2.0.15",
     "request": "2.88.2",
-    "tape": "5.1.1"
+    "tape": "5.3.1"
   },
 
   "repository": {
