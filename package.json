@@ -14,24 +14,24 @@
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "cookie-parser": "1.4.5",
-    "debug": "4.3.2",
+    "cookie-parser": "1.4.6",
+    "debug": "4.3.4",
     "ejs": "3.1.6",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "express-session": "1.17.2",
     "http-errors": "1.8.1",
     "method-override": "3.0.0",
-    "mongoose": "6.0.12",
+    "mongoose": "6.2.8",
     "mongoose-unique-validator": "3.0.0",
     "morgan": "1.10.0",
     "node-env-file": "0.1.8",
-    "twilio": "3.71.1",
+    "twilio": "3.76.0",
     "validator": "13.7.0"
   },
   "devDependencies": {
     "nodemon": "2.0.15",
     "request": "2.88.2",
-    "tape": "5.3.1"
+    "tape": "5.5.2"
   },
 
   "repository": {
