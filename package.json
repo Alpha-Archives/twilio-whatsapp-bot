@@ -19,7 +19,7 @@
     "ejs": "3.1.6",
     "express": "4.17.1",
     "express-session": "1.17.2",
-    "http-errors": "1.8.1",
+    "http-errors": "2.0.0",
     "method-override": "3.0.0",
     "mongoose": "6.0.12",
     "mongoose-unique-validator": "3.0.0",
